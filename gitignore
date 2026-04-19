@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (puzzle generator)
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Lichess puzzle database (large files — do not commit)
+*.csv
+*.zst
+
+# Vercel local dev
+.vercel/
